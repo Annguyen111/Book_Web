@@ -1,0 +1,555 @@
+
+/* Tablet and mobile */
+@media (max-width: 80.9375em){
+    
+
+}
+
+/* Mobile */
+@media (max-width: 46.1875em){
+
+    #menu-list li:nth-child(5) a{
+        line-height: 80px; 
+        border: none;
+        border-radius: 0px; 
+        background-color: #fff; 
+        color: #0E345A;
+        transition: .5s ease;
+    }
+
+    /* Member */
+
+    .about-member-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* Detail product */
+
+    .detail-book-item-img {
+        width: 350px;
+    }
+
+    .detail-book-heading-one {
+        width: 42%;
+        
+    }
+
+    .detail-book-heading-two {
+        width: 42%;
+        
+    }
+
+    .detail-book-item2 {
+        width: 84%;
+    }
+
+    .detail-book-item-content {
+        margin-left: 0px;
+    }
+    
+    #slider{
+        display: none;
+    }
+
+    .slider2{
+        display: block;
+    }
+    
+    #content {
+        margin: 0;
+    }
+
+    .bonusbook-text{
+        
+        font-size: 47px;
+    
+    }
+
+    .menu-list_header-search:focus .menu-list-search{
+        display: block;
+    }
+
+    .menu-list_header-cart:focus .menu-list-empty{
+        display: block;
+    }
+
+    #bonusbook{
+        background: url(/asserts/image/about/abouts.jpg) top center / cover no-repeat;
+        padding: 1%;
+    }
+
+    #content #recommendedbook{
+        border-radius: 0;
+    }
+
+    .list-bookk{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #menu-list{
+        display: contents;
+    }
+
+    #menu-list a{
+        font-size: 16px;
+    }
+
+    #menu-list{
+        margin: 0;
+    }
+
+    .header-logo{
+        display: none;
+    }
+
+
+    #menu-list li{
+        display: block;
+    }
+
+    .menu-list_header-cart {
+        
+        margin: 0;
+        padding: 0px 20px;
+    }
+
+    #header {
+        background-color: #0E345A;
+       
+    }
+
+    #header .submenu-list {
+        
+        margin-right: 0; 
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .menu-list-empty {
+        
+        right: 8px;
+        
+    }
+
+    .submenu-list li{
+        display: inline-block;
+    }
+
+    .menu-list_on_mobile_three{
+        display: block;
+    }
+
+    .list-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .list-itemm {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-infor-text {
+        
+      
+        text-align: center;
+    }
+
+    .col-third {
+        width: 50.33333%;
+    }
+
+    #contact .contact-infor {
+        border: 18px solid #0E345A;
+        margin: 16px -16px;
+        border-radius: 0px;
+    }
+
+
+    #form-one-text, #form-one-email {
+        margin-left: 16px;
+        
+    }
+
+    .auth-form {
+        width: 400px;
+    }
+
+    .col-half {
+        width: 100%;
+    }
+
+    .booklanch-content-infor {
+        
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-col {
+       
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    .footer-col .footer-heading {
+        font-size: 20px;
+    }
+
+    .footer-col .footer-subheading {
+        font-size: 13px;
+    }
+
+    .col-four{
+        width: 100%;
+    }
+
+    #footer {
+        height: auto;
+    }
+
+    .footer-heading {
+       
+        margin-bottom: 30px;
+    }
+
+    .footer-form label {
+        font-size: 13px;
+    }
+
+    .footer-form-btn {
+       
+        padding: 10px 117px;
+        
+    }
+
+    .footer-container{
+        margin: 0;
+    }
+
+    #footer-input {
+        
+        padding: 10px 60px;
+        
+    }
+
+    .about-us-row {
+        
+        flex-wrap: wrap;
+    }
+
+    .about-us-row .about-member {
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .grid_column-2 {
+        display: none;
+    }
+
+    .grid_column-2-4 {
+        
+        width: 50%;
+    }
+
+    .grid_column-10 {
+       
+        width: 100%;
+    }
+
+    .book-pagination {
+        
+        display: none;
+    }
+
+    .modal-infor_body {
+        
+        width: auto;
+        height: 645px;
+        margin: 0px 10px;
+        transform: translate(0%, 13%);
+    }
+
+    .modal-infor_body-img {
+        padding: 28%;
+        margin: 10px;
+        
+    }
+
+    .book-btn-mobile{
+        display: block;
+    }
+
+    
+
+    .list-book-mark {
+        
+        width: 20%;
+        height: 7%;
+        padding: 10px;
+       
+    }
+
+    #slider .slider-text {
+        
+        font-size: 34px;
+    }
+
+    .menu-list-empty {
+        position: fixed;
+        top: 70px;
+        right: 0;
+        width: 100%;
+       
+        border-radius: 0px;
+    }
+
+
+    .menu-list-search{
+        
+            position: fixed;
+            top: 57px;
+            right: 0;
+            width: 100%;
+            
+       
+    }
+
+    .menu-list-search::before {
+        
+        top: -22px;
+        right: 100px;
+        
+    }
+
+    .menu-list-search input{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .menu-list-cart-header {
+        border-radius: 0;
+    }
+
+    .menu-list-empty::after{
+        
+        display: none;
+    }
+
+    #slider .slider-content{
+        display: none;
+    }
+
+    #menu-list li:hover a{
+        color:#0E345A;
+        background-color: #fff;
+        
+    }
+
+    .about-member-name{
+        font-size: 50px;
+    }
+
+    .about-member-namee{
+        text-align: justify;
+    }
+
+    .about-image-item{
+        padding: 50%;
+        margin-top: 40px;
+    }
+
+    .about-select-item{
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .about-select{
+        
+        margin-top: 100px;
+        margin-bottom: 150px;
+        
+    }
+
+    .about-team-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .about-team-text-content{
+        text-align: justify;
+    }
+
+    .about-review-item-customer{
+        
+        width: 90%;
+        
+        
+    }
+
+    .about-review-item{
+        
+        transform: translateY(25%);
+        
+    }
+    .about-review{
+        height: 1300px;
+    
+    }
+
+    .about-review-heading {
+       
+        transform: translateX(15%);
+        
+    }
+
+    .about-review-item-customer{
+        margin-top: 20px;
+       
+    }
+
+    .my-cart-item2 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .my-cart-item1{
+        width: 100%;
+    }
+
+    .my-cart-item2{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    body::-webkit-scrollbar{
+        width: 0px;
+    }
+    
+    
+
+
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 64em){
+    .header-logo{
+        display: none;
+    }
+
+    .modal-infor_body {
+        
+        
+        transform: translate(7%, 100%);
+    }
+
+    body::-webkit-scrollbar{
+        width: 0px;
+    }
+
+    
+    .booklanch-content-infor{
+        font-size: 20px;
+    }
+    
+    #slider .slider-content {
+        
+        left: 25%;
+        
+    }
+
+    .list-book-mark{
+        width: 47%;
+        font-size: 10px;
+
+    }
+
+    .about-review-heading {
+        
+        transform: translateX(95%);
+        
+    }
+
+    .about-review {
+        
+        height: 700px;
+    }
+
+    .about-review-item {
+        margin-top: 70px;
+        transform: translateY(50%);
+    }
+
+    #footer-input {
+        
+        padding: 8px 0px;
+        
+    }
+
+    .footer-form-btn {
+        
+        padding: 10px 57px;
+        
+    }
+
+    .modal-infor_body {
+        
+        width: 900px;
+        height: 460px;
+    }
+
+    .grid_column-2-4 {
+        
+        width: 33%;
+    }
+
+    .grid_column-2 {
+        
+        width: 20.6667%;
+    }
+
+    .grid_column-10 {
+       
+        width: 79.3334%;
+    }
+
+    #menu-list {
+        margin: 0;
+        margin-left: 0px;
+    }
+
+    .footer-heading{
+        font-size: 15px;
+    }
+
+    .footer-subheading{
+        font-size: 10px;
+    }
+
+    .footer-form{
+        font-size: 10px;
+    }
+
+    .footer-container {
+        margin: 0px 30px;
+    }
+
+    .mg-text {
+        font-size: 20px;
+    }
+
+    .footer-col {
+        margin-left: 22px;
+        margin-top: 70px;
+        margin-right: 22px;
+    }
+
+
+}

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="./asserts/image/favicon/favicon-book.png" type="image/x-icon">
+        <link rel="stylesheet" href="./asserts/css/style.css">
+        <link rel="stylesheet" href="./asserts/css/responsive.css">
+        <link rel="stylesheet" href="./asserts/font/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Livaes</title>
+    </head>
+    <body>
+        <div id="container">
+
+            <div id="header">
+                <div class="header-logo">
+                    <i class="ti-bookmark-alt header-logo-icon"></i>
+                    <a href="#">Livaes</a>
+                </div>
+
+                <ul id="menu-list">
+                    <li><a href="./index.html" >Home</a></li>
+                    <li><a href="./books.html">Books</a></li>
+                    <li><a href="./about.html" >About Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./login.html" >Login</a></li>
+                </ul>
+                <ul class="submenu-list">
+                    <li class="menu-list_on_mobile">
+                        <div id="mobile-menu" onclick="openMenu()" class="menu-list_on_mobile_three"><i class="menu-icon ti-menu"></i></div>
+                    </li>
+                    <li class="menu-list_header-search">
+                        <i class="ti-search"></i>
+                        <div class="menu-list-search">
+                            <input type="text" placeholder="Search"></input>
+                        </div>
+                    </li>
+                    <li class="menu-list_header-user">
+                        <i class="ti-user"></i>
+                        
+                    </li>
+                    <li class="menu-list_header-cart" id="menu-list-btn">
+                        <i class="ti-shopping-cart"></i>
+                        <div class="menu-list-empty ti-shopping-cart-empty" id="menu-list-shopping">
+                            <header class="menu-list-cart-header">
+                                <h1 class="menu-list-cart-header-text">Cart</h1>
+                            </header>
+                            <section class="menu-list-cart-product">
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book14.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">VEGETARIAN CHILD</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book15.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">Waited long enough</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book16.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">You're not hoarder</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                            </section>
+                            <footer class="menu-list-cart-footer">
+                                <div class="menu-list-cart-footer-btn">
+                                    <a href="/cart.html" class="menu-list-cart-footer-btn-checkout" >Check cart</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+
+            <div id="about">
+                <div id="about-us" class="content-section">
+                    
+                    <h1 class="content-heading-large" >ABOUT US</h1>
+                    
+                    <div class="about-us-row">
+                        <div class="about-member col-four">
+                            <h4 class="about-member-name">We know everything about books.</h4>
+                           
+                       
+                        </div>
+                        <div class="about-member col-four">
+                            <h4 class="about-member-namee mg-text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</h4>
+                            <h4 class="about-member-namee mg-text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h4>
+                       
+                        </div>
+                       
+                        
+                    </div>
+
+                    <div class="about-image">
+                        <div class="about-image-item col-four" style="background: url(/asserts/image/about/about2.jpg) top center / cover no-repeat;">
+
+                        </div>
+                        <div class="about-image-item col-four" style="background: url(/asserts/image/about/about3.jpg) top center / cover no-repeat;">
+
+                        </div>
+                        <div class="about-image-item col-four" style="background: url(/asserts/image/about/about4.jpg) top center / cover no-repeat;">
+
+                        </div>
+                        <div class="about-image-item col-four" style="background: url(/asserts/image/about/about1.jpg) top center / cover no-repeat;">
+
+                        </div>
+                    </div>
+
+                    <div class="about-select">
+                        <div class="about-select-item ">
+                            <i class="about-select-link ti-bookmark"></i>
+                            <h3 class="about-select-text">The Largest Selection</h3>
+                            <p class="about-select-texts">Our store stocks over 200 thousand great paper books and digital items for immediate delivery.</p>
+                        </div>
+                        <div class="about-select-item ">
+                            <i class="about-select-link ti-hand-open"></i>
+                            <h3 class="about-select-text">Books for Students</h3>
+                            <p class="about-select-texts">We are a perfect place for those looking for the best textbooks, audio books, music and videos.</p>
+                        </div>
+                        <div class="about-select-item ">
+                            <i class="about-select-link ti-user"></i>
+                            <h3 class="about-select-text">Books for Children</h3>
+                            <p class="about-select-texts">More than ten thousand book titles can be found here. Browse the kids section or search by keywords.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-team">
+                        <div class="about-team-item">
+                            <p class="about-team-text">Our Team</p>
+                            <h1 class="about-team-bigtext">We develop & create digital future.</h1>
+                        </div>
+
+                        <div class="about-team-item">
+                           <p class="about-team-text-content">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <br>
+                            <Adipiscing class="about-team-text-content">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="about-member">
+                        <div class="about-member-row row">
+                            <div class="about-member-col">
+                                <img src="./asserts/image/member/member.jpg" alt="" class="about-member-col-img">
+                                <div class="about-member-overlay">
+                                    <div class="about-member-text">Nguyen Quoc An</div>
+                                </div>
+                            </div>
+                            <div class="about-member-col">
+                                <img src="./asserts/image/member/member.jpg" alt="" class="about-member-col-img">
+                                <div class="about-member-overlay">
+                                    <div class="about-member-text">Nguyen Van Quoc Cường</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="about-review">
+                        <h2 class="about-review-heading">Review</h2>
+                        <div class="about-review-item">
+                            <div class="about-review-item-customer">
+                                <div class="about-review-item-star">
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                </div>
+                                <p class="about-review-item-text">
+                                    I have come to courses to study English. I have attended private classes with Marie Claire. The time has been invaluable, positive, fun and very education. I plan to return to my studies as quickly as possible!
+                                </p>
+                                <h4 class="about-review-item-text">Same Jones</h4>
+                            </div>
+                            <div class="about-review-item-customer">
+                                <div class="about-review-item-star">
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                </div>
+                                <p class="about-review-item-text">
+                                    Thank you so much for all your hard work throughout the years! I would not have any hesitation in recommending you to my friends
+                                </p>
+                                <h4 class="about-review-item-text">Tina Lawrence</h4>
+                            </div>
+                            <div class="about-review-item-customer">
+                                <div class="about-review-item-star">
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                    <i class="ti-star"></i>
+                                </div>
+                                <p class="about-review-item-text">
+                                    This is a great place to start your addtional education, degree upgrade, or simply any information that a good school can give. Thank you!
+                                </p>
+                                <h4 class="about-review-item-text">Jennifer Lee</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="footer" ">
+                <div class="row footer-container">
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">BOOKSTORE. Publishers</h4>
+                        <p class="footer-subheading">35 Nguyen Dinh Hien</p>
+                        <p class="footer-subheading">Viet Nam</p>
+                        <p class="footer-subheading">0356593936</p>
+                        <p class="footer-subheading"><a href="mailto:mail@mail.com">info@my-domain.com</a></p>
+
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Shop</h4>
+                        <p class="footer-subheading">FAQ</p>
+                        <p class="footer-subheading">Shipping & Returns</p>
+                        <p class="footer-subheading">Store Policy</p>
+                        <p class="footer-subheading">Payment Methods</p>
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Socials</h4>
+                        <p class="footer-subheading"><a href="">Facebook</a></p>
+                        <p class="footer-subheading"><a href="">Twitter</a></p>
+                        <p class="footer-subheading"><a href="">Instagram</a></p>
+                        <p class="footer-subheading"><a href="">Pinterest</a></p>
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Be the First to Know</h4>
+                        <form class="footer-form" action="">
+                            <label for="email">Sign up for our website</label>
+                            <br>
+                            <input type="email" name="email" required id="footer-input" placeholder="Enter your email here*">
+                            <br>
+                            <input class="footer-form-btn" type="submit" value="Subcrise">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <script>
+            const buyBans = document.querySelectorAll('.js-book');
+                const modal = document.querySelector('.js-modal')
+                const modalClose = document.querySelector('.js-close')
+                const modalContainer = document.querySelector('.js-container')
+    
+                function showModal(){
+                    modal.classList.add('open');
+                }
+    
+                function closeModal(){
+                    modal.classList.remove('open');
+                }
+    
+                for (const buyBtn of buyBans){
+                    buyBtn.addEventListener('click',showModal)
+                }
+    
+                modalClose.addEventListener('click',closeModal)
+    
+                modal.addEventListener('click',closeModal)
+    
+                modalContainer.addEventListener('click',function (event){
+                    event.stopPropagation()
+                })
+    
+    
+                var header = document.getElementById("header");
+                
+                var header_height = header.clientHeight;
+    
+                function openMenu(){
+                    var isClose = header.clientHeight === header_height;
+    
+                    if (isClose){
+                        header.style.height = "auto";
+                    }else {
+                        header.style.height = header_height + "px";
+                    }
+    
+                }
+    
+                function closeMenu(){
+                    header.style.height = header_height + "px";
+                }
+    
+                const authform = document.querySelector('.js-modal2');
+              
+                const authformClose = document.querySelector('.js-btn-close');
+                const authformContainer = document.querySelector('.js-modal2-body');
+    
+                function showAuthForm(){
+                    authform.classList.add('open');
+                }
+    
+                function closeAuthForm(){
+                    authform.classList.remove('open');
+                }
+    
+             
+                
+                authformClose.addEventListener('click',closeAuthForm)
+    
+                
+                var menulistBtn = document.getElementById("menu-list");
+                var menuShopping = document.getElementById("menu-shopping");
+    
+                menulistBtn.onclick = function(){
+                    menuShopping.style.display = "block";
+                }
+           </script>
+
+
+        
+
+
+        
+    </body>
+</html>

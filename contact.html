@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="./asserts/image/favicon/favicon-book.png" type="image/x-icon">
+        <link rel="stylesheet" href="./asserts/css/style.css">
+        <link rel="stylesheet" href="./asserts/css/responsive.css">
+        <link rel="stylesheet" href="./asserts/font/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Livaes</title>
+    </head>
+    <body>
+        <div id="container">
+
+            <div id="header">
+                <div class="header-logo">
+                    <i class="ti-bookmark-alt header-logo-icon"></i>
+                    <a href="#">Livaes</a>
+                </div>
+
+                <ul id="menu-list">
+                    <li><a href="./index.html" >Home</a></li>
+                    <li><a href="./books.html" >Books</a></li>
+                    <li><a href="./about.html" >About Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                </ul>
+                <ul class="submenu-list">
+                    <li class="menu-list_on_mobile">
+                        <div id="mobile-menu" onclick="openMenu()" class="menu-list_on_mobile_three"><i class="menu-icon ti-menu"></i></div>
+                    </li>
+                    
+                    <li class="menu-list_header-search">
+                        <i class="ti-search"></i>
+                        <div class="menu-list-search">
+                            <input type="text" placeholder="Search"></input>
+                        </div>
+                    </li>
+                    <li class="menu-list_header-user">
+                        <i class="ti-user"></i>
+                        
+                    </li>
+                    <li class="menu-list_header-cart" id="menu-list-btn">
+                        <i class="ti-shopping-cart"></i>
+                        <div class="menu-list-empty ti-shopping-cart-empty" id="menu-list-shopping">
+                            <header class="menu-list-cart-header">
+                                <h1 class="menu-list-cart-header-text">Cart</h1>
+                            </header>
+                            <section class="menu-list-cart-product">
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book14.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">VEGETARIAN CHILD</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book15.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">Waited long enough</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book16.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">You're not hoarder</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                            </section>
+                            <footer class="menu-list-cart-footer">
+                                <div class="menu-list-cart-footer-btn">
+                                    <a href="/cart.html" class="menu-list-cart-footer-btn-checkout" >Check cart</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div id="content" class="js-content">
+            
+                <div id="contact" class="content-section ">
+                    <p class="content-heading-dark ">Be back again</p>
+                    <h1 class="content-heading-large-dark">CONTACT</h1>
+                    <div class="contact-infor"  >
+                        <div class="contact-form-one">
+                            <div class="col contact-infor-text col-third">
+                                <h4 class="title-contact">Store 01</h4>
+                                <br>
+                                <p>Address</p>
+                                <p>Nui Thanh</p>
+                                <p>SF, CA 94158</p>
+                                <br>
+                                <p>Tel</p>
+                                <p>0356593936</p>
+                                <br>
+                                <p>Email</p>
+                                <p><a style="text-decoration: none; color: #0E345A;" href="mailto:mail@mail.com">info@my-domain.com</a></p>
+                            </div>
+    
+                            <div class="col contact-infor-text col-third">
+                                <h4 class="title-contact">Store 02</h4>
+                                <br>
+                                <p>Address</p>
+                                <p>35 Nguyen Dinh Hien</p>
+                                <p>SF, CA 94158</p>
+                                <br>
+                                <p>Tel</p>
+                                <p>0356593936</p>
+                                <br>
+                                <p>Email</p>
+                                <p><a style="text-decoration: none; color: #0E345A;" href="mailto:mail@mail.com">info@my-domain.com</a></p>
+                            </div>
+    
+                            <div class="col contact-infor-text col-third">
+                                <h4 class="title-contact">Customer Service</h4>
+                                <br>
+                                <p>Tel</p>
+                                <p>0356593936</p>
+                                <br>
+                                <p>Email</p>
+                                <p><a style="text-decoration: none; color: #0E345A;" href="mailto:mail@mail.com">info@my-domain.com</a></p>
+                                
+                                <div class=" contact-infor-icon ">
+                                    <a href="https://www.facebook.com/profile.php?id=100009002309264"><i class="ti-facebook"></i></a>
+                                    <a href="https://www.instagram.com/"><i class="ti-instagram"></i></a>
+                                    <a href=""><i class="ti-twitter-alt"></i></a>
+                                </div>
+                            </div>
+    
+                            
+                        </div>
+                        <div class="contact-form-two">
+                            <div class="form-one row">
+                                <input class="col col-half-half" type="text" name="name" id="form-one-text" placeholder="Name">
+                                <input class="col  col-half-half" type="email" name="email" id="form-one-email" placeholder="Email">
+                            </div>
+                            <div class="form-two">
+                               <a href="#" class="form-two-btn">Submit</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                   
+                   
+                    
+
+                </div>
+
+                
+            </div>
+
+            
+
+            <div id="footer" ">
+                <div class="row footer-container">
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">BOOKSTORE. Publishers</h4>
+                        <p class="footer-subheading">35 Nguyen Dinh Hien</p>
+                        <p class="footer-subheading">Viet Nam</p>
+                        <p class="footer-subheading">0356593936</p>
+                        <p class="footer-subheading"><a href="mailto:mail@mail.com">info@my-domain.com</a></p>
+
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Shop</h4>
+                        <p class="footer-subheading">FAQ</p>
+                        <p class="footer-subheading">Shipping & Returns</p>
+                        <p class="footer-subheading">Store Policy</p>
+                        <p class="footer-subheading">Payment Methods</p>
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Socials</h4>
+                        <p class="footer-subheading"><a href="">Facebook</a></p>
+                        <p class="footer-subheading"><a href="">Twitter</a></p>
+                        <p class="footer-subheading"><a href="">Instagram</a></p>
+                        <p class="footer-subheading"><a href="">Pinterest</a></p>
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Be the First to Know</h4>
+                        <form class="footer-form" action="">
+                            <label for="email">Sign up for our website</label>
+                            <br>
+                            <input type="email" name="email" required id="footer-input" placeholder="Enter your email here*">
+                            <br>
+                            <input class="footer-form-btn" type="submit" value="Subcrise">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <script>
+            const buyBans = document.querySelectorAll('.js-book');
+                const modal = document.querySelector('.js-modal')
+                const modalClose = document.querySelector('.js-close')
+                const modalContainer = document.querySelector('.js-container')
+    
+                function showModal(){
+                    modal.classList.add('open');
+                }
+    
+                function closeModal(){
+                    modal.classList.remove('open');
+                }
+    
+                for (const buyBtn of buyBans){
+                    buyBtn.addEventListener('click',showModal)
+                }
+    
+                modalClose.addEventListener('click',closeModal)
+    
+                modal.addEventListener('click',closeModal)
+    
+                modalContainer.addEventListener('click',function (event){
+                    event.stopPropagation()
+                })
+    
+    
+                var header = document.getElementById("header");
+                
+                var header_height = header.clientHeight;
+    
+                function openMenu(){
+                    var isClose = header.clientHeight === header_height;
+    
+                    if (isClose){
+                        header.style.height = "auto";
+                    }else {
+                        header.style.height = header_height + "px";
+                    }
+    
+                }
+    
+                function closeMenu(){
+                    header.style.height = header_height + "px";
+                }
+    
+                const authform = document.querySelector('.js-modal2');
+              
+                const authformClose = document.querySelector('.js-btn-close');
+                const authformContainer = document.querySelector('.js-modal2-body');
+    
+                function showAuthForm(){
+                    authform.classList.add('open');
+                }
+    
+                function closeAuthForm(){
+                    authform.classList.remove('open');
+                }
+    
+             
+                
+                authformClose.addEventListener('click',closeAuthForm)
+    
+                
+                var menulistBtn = document.getElementById("menu-list");
+                var menuShopping = document.getElementById("menu-shopping");
+    
+                menulistBtn.onclick = function(){
+                    menuShopping.style.display = "block";
+                }
+           </script>
+        
+    </body>
+</html>

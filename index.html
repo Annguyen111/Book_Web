@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="./asserts/image/favicon/favicon-book.png" type="image/x-icon">
+        <link rel="stylesheet" href="./asserts/css/style.css">
+        <link rel="stylesheet" href="./asserts/css/responsive.css">
+        <link rel="stylesheet" href="./asserts/font/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Livaes</title>
+    </head>
+    <body class="preloading">
+
+        
+        <div id="container" >
+
+            <div id="header">
+                <div class="header-logo">
+                    <i class="ti-bookmark-alt header-logo-icon"></i>
+                    <a href="#">Livaes</a>
+                </div>
+
+                <ul id="menu-list">
+                    <li><a href="./index.html" >Home</a></li>
+                    <li><a href="./books.html" >Books</a></li>
+                    <li><a href="./about.html" >About Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./login.html" >Login</a></li>
+                </ul>
+                <ul class="submenu-list">
+                    <li class="menu-list_on_mobile">
+                        <div id="mobile-menu" onclick="openMenu()" class="menu-list_on_mobile_three"><i class="menu-icon ti-menu"></i></div>
+                    </li>
+
+                    <li class="menu-list_header-search">
+                        <i class="ti-search"></i>
+                        <div class="menu-list-search">
+                           
+                            <input type="text" placeholder="Search"></input>
+                        </div>
+                    </li>
+                    <li class="menu-list_header-user">
+                        <i class="ti-user"></i>
+                        
+                    </li>
+                    <li class="menu-list_header-cart" id="menu-list-btn">
+                        <i class="ti-shopping-cart"></i>
+                        <div class="menu-list-empty ti-shopping-cart-empty" id="menu-list-shopping">
+                            <header class="menu-list-cart-header">
+                                <h1 class="menu-list-cart-header-text">Cart</h1>
+                            </header>
+                            <section class="menu-list-cart-product">
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book14.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">VEGETARIAN CHILD</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book15.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">Waited long enough</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book16.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">You're not hoarder</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+
+                            </section>
+                            <footer class="menu-list-cart-footer">
+                                <div class="menu-list-cart-footer-btn">
+                                    <a href="/cart.html" class="menu-list-cart-footer-btn-checkout" >Check cart</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+
+            <div class="slider2">
+                <div class="slider2-content">
+                    <i class="ti-bookmark-alt header-logo-icon slider2-icon"></i>
+                    <a href="#">Livaes</a>
+                </div>
+                
+            </div>
+
+            <div id="slider" >
+                <img src="./asserts/image/slider2.jpg" alt="" class="slider-content-img">
+                <div class="slider-content">
+                    
+                    <p class="slider-text">
+                       Up to 50% Off Our Science Classes</p>
+                    <a href="#bestseller" class="slider-content-link">Get now</a>
+                </div>
+            </div>
+
+           
+
+            <div id="content" >
+                <div id="bestseller" class="content-section">
+                    <p class="content-heading">BOOKSTORE. Publishers</p>
+                    <h1 class="content-heading-large">BESTSELLERS</h1>
+                    <div class="row list-book">
+                        <div class="col mt-16 s-col-full list-item">
+                            <p class="list-book-mark">Bestseller</p>
+                            <img src="./asserts/image/books/book1.jpg" alt="New York" class="list-book-img">
+                            <p class="list-book-price">The Missing</p>
+                            
+                            <p class="list-book-price">28$</p>
+                            <div class="place-body">
+                                
+                                <button href="#" class="book-btn js-book s-full-width">Add</button>
+                            </div>
+                        </div>
+
+                        <div class="col mt-16 s-col-full list-item">
+                            <img src="./asserts/image/books/book2.jpg" alt="New York" class="list-book-img">
+                            <p class="list-book-price">Hiking the ALPS</p>
+                            <p class="list-book-price">50$</p>
+                            <div class="place-body">
+                                
+                                <button href="#" class="book-btn js-book s-full-width">Add</button>
+                            </div>
+                        </div>
+
+                        <div class="col mt-16 s-col-full list-item">
+                            <img src="./asserts/image/books/book3.jpg" alt="New York" class="list-book-img">
+                            <p class="list-book-price">Spoken Book</p>
+                            <p class="list-book-price">40$</p>
+                            <div class="place-body">
+                                
+                                <button href="#" class="book-btn js-book s-full-width">Add</button>
+                            </div>
+                        </div>
+
+                        <div class="col mt-16 s-col-full list-item">
+                            <img src="./asserts/image/books/book4.jpg" alt="New York" class="list-book-img">
+                            <p class="list-book-price">KHALO</p>
+                            <p class="list-book-price">32$</p>
+                            <div class="place-body">
+                                
+                                <button href="#" class="book-btn js-book s-full-width">Add</button>
+                            </div>
+                        </div>
+
+                        <div class="col mt-16 s-col-full list-item">
+                            <img src="./asserts/image/books/book5.jpg" alt="New York" class="list-book-img">
+                            <p class="list-book-price">Design</p>
+                            <p class="list-book-price">66$</p>
+                            <div class="place-body">
+                                
+                                <button href="#" class="book-btn js-book s-full-width">Add</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+
+                <div id="bonusbook">
+                    <div class="bonusbook-text">
+                        <h4>THERE'S NO</h4>
+                        <h4>SUCH THING AS TOO</h4>
+                        <h4>MANY BOOKS</h4>
+                    </div>
+                    <div class="bonusbook-btn">
+                        <a href="./about.html" class="bonusbook-btn-link">Read Our Story</a>
+                    </div>
+                    
+                </div>
+
+                <div id="recommendedbook" class="recommended-section ">
+                    <p class="recommended-heading">This Month's</p>
+                    <h1 class="recommended-heading-large">RECOMMENDED BOOKS</h1>
+                    <div class="row list-bookk">
+                        <div class="col mt-16 s-col-full list-itemm">
+                            
+                            <img src="./asserts/image/books/book18.jpg" alt="New York" class="list-book-img">
+                            <p class="list-book-price">Healing Herbs</p>
+                            <p class="list-book-price">28$</p>
+                            <div class="place-body">
+                                
+                                <button href="#" class="book-btn js-book s-full-width">Add</button>
+                            </div>
+                        </div>
+
+                        <div class="col mt-16 s-col-full list-itemm">
+                            <img src="./asserts/image/books/book17.jpg" alt="New York" class="list-book-img">
+                            <p class="list-book-price">COCKTAILS</p>
+                            <p class="list-book-price">28$</p>
+                            <div class="place-body">
+                                
+                                <button href="#" class="book-btn js-book s-full-width">Add</button>
+                            </div>
+                        </div>
+
+                        <div class="col mt-16 s-col-full list-itemm">
+                            <p class="list-book-mark">Sale</p>
+                            <img src="./asserts/image/books/book16.jpg" alt="New York" class="list-book-img">
+                            <p class="list-book-price">You're not a hoarder</p>
+                            <p class="list-book-price">40$</p>
+                            
+                            <div class="place-body">
+                                
+                                <button href="#" class="book-btn js-book s-full-width">Add</button>
+                            </div>
+                        </div>
+
+                        <div class="col mt-16 s-col-full list-itemm">
+                            <img src="./asserts/image/books/book15.jpg" alt="New York" class="list-book-img">
+                            <p class="list-book-price">Waited long enough</p>
+                            <p class="list-book-price">32$</p>
+                            <div class="place-body">
+                                
+                                <button href="#" class="book-btn js-book s-full-width">Add</button>
+                            </div>
+                        </div>
+
+                        <div class="col mt-16 s-col-full list-itemm">
+                            <img src="./asserts/image/books/book14.jpg" alt="New York" class="list-book-img">
+                            <p class="list-book-price">VEGETARIAN CHILD</p>
+                            <p class="list-book-price">66$</p>
+                            <div class="place-body">
+                                
+                                <button href="#" class="book-btn js-book s-full-width">Add</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+
+                
+                <div id="booklaunch" class="content-section">
+                    <p class="content-heading-dark">Coming Up</p>
+                    <h1 class="content-heading-large-dark">BOOK LAUNCH</h1>
+                    <div class="booklanch-content row">
+                        <div class="col booklanch-content-infor col-half">
+                            <h4>Introducing The Land of BOOKSTORE</h4>
+                            <br>
+                            <p>By......</p>
+                            <br>
+                            <p>When: 
+                                19:00, 12 thg 5, 2022</p>
+                                <br>
+                            <p>Where: </p>
+                            <p>Ngu Hanh Son,<br>35 Nguyen Dinh Hien, Viet Nam</p>
+                            <div class="booklanch-btn">
+                                <a href="" class="booklanch-content-btn">BOOK NOW</a>
+                            </div>
+                        </div>
+
+                        <div class="col booklanch-content-img col-half">
+                            <img src="./asserts/image/contact/contact1.jpg" alt="">
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+
+            <div id="footer" ">
+                <div class="row footer-container">
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">BOOKSTORE. Publishers</h4>
+                        <p class="footer-subheading">35 Nguyen Dinh Hien</p>
+                        <p class="footer-subheading">Viet Nam</p>
+                        <p class="footer-subheading">0356593936</p>
+                        <p class="footer-subheading"><a href="mailto:mail@mail.com">info@my-domain.com</a></p>
+
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Shop</h4>
+                        <p class="footer-subheading">FAQ</p>
+                        <p class="footer-subheading">Shipping & Returns</p>
+                        <p class="footer-subheading">Store Policy</p>
+                        <p class="footer-subheading">Payment Methods</p>
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Socials</h4>
+                        <p class="footer-subheading"><a href="">Facebook</a></p>
+                        <p class="footer-subheading"><a href="">Twitter</a></p>
+                        <p class="footer-subheading"><a href="">Instagram</a></p>
+                        <p class="footer-subheading"><a href="">Pinterest</a></p>
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Be the First to Know</h4>
+                        <form class="footer-form" action="">
+                            <label for="email">Sign up for our website</label>
+                            <br>
+                            <input type="email" name="email" required id="footer-input" placeholder="Enter your email here*">
+                            <br>
+                            <input class="footer-form-btn" type="submit" value="Subcrise">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="modal js-modal">
+            <div class="modal-container js-container">
+                <div class="modal-close js-close">
+                    <i class="ti-close"></i>
+                </div>
+                <hear class="modal-header">
+                    <i class="modal-heading-icon ti-bag"></i>
+                    Buy Books
+                </hear>
+
+                <div class="modal-body">
+                    <label for="many-book" class="modal-label">
+                        <i class="ti-shopping-cart"></i>
+                        Phone
+                    </label>
+                    <input id="many-book" type="text" class="modal-input" placeholder="What is your phone?">
+
+                    <label for="email-book" class="modal-label">
+                        <i class="ti-user"></i>
+                        Email
+                    </label>
+                    <input id="email-book" type="email" class="modal-input" placeholder="Enter email">
+
+                    <button id="buy-book">
+                        Buy
+                        <i class="ti-check"></i>
+                    </button>
+                </div>
+
+                <footer class="modal-footer">
+                   <p class="modal-help">Need <a href="#">help?</a></p>
+                </footer>
+            </div>
+        </div>
+
+       <script>
+        const buyBans = document.querySelectorAll('.js-book');
+            const modal = document.querySelector('.js-modal')
+            const modalClose = document.querySelector('.js-close')
+            const modalContainer = document.querySelector('.js-container')
+
+            function showModal(){
+                modal.classList.add('open');
+            }
+
+            function closeModal(){
+                modal.classList.remove('open');
+            }
+
+            for (const buyBtn of buyBans){
+                buyBtn.addEventListener('click',showModal)
+            }
+
+            modalClose.addEventListener('click',closeModal)
+
+            modal.addEventListener('click',closeModal)
+
+            modalContainer.addEventListener('click',function (event){
+                event.stopPropagation()
+            })
+
+
+            var header = document.getElementById("header");
+            
+            var header_height = header.clientHeight;
+
+            function openMenu(){
+                var isClose = header.clientHeight === header_height;
+
+                if (isClose){
+                    header.style.height = "auto";
+                }else {
+                    header.style.height = header_height + "px";
+                }
+
+            }
+
+            function closeMenu(){
+                header.style.height = header_height + "px";
+            }
+
+            const authform = document.querySelector('.js-modal2');
+          
+            const authformClose = document.querySelector('.js-btn-close');
+            const authformContainer = document.querySelector('.js-modal2-body');
+
+            function showAuthForm(){
+                authform.classList.add('open');
+            }
+
+            function closeAuthForm(){
+                authform.classList.remove('open');
+            }
+
+         
+            
+            authformClose.addEventListener('click',closeAuthForm)
+
+            
+            var menulistBtn = document.getElementById("menu-list");
+            var menuShopping = document.getElementById("menu-shopping");
+
+            menulistBtn.onclick = function(){
+                menuShopping.style.display = "block";
+            }
+       </script>
+    </body>
+</html>

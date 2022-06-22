@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="./asserts/image/favicon/favicon-book.png" type="image/x-icon">
+        <link rel="stylesheet" href="./asserts/css/style.css">
+        <link rel="stylesheet" href="./asserts/css/responsive.css">
+        <link rel="stylesheet" href="./asserts/font/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Livaes</title>
+    </head>
+    <body>
+        <div id="container">
+
+            <div id="header">
+                <div class="header-logo">
+                    <i class="ti-bookmark-alt header-logo-icon"></i>
+                    <a href="#">Livaes</a>
+                </div>
+
+                <ul id="menu-list">
+                    <li><a href="./index.html" >Home</a></li>
+                    <li><a href="./books.html" >Books</a></li>
+                    <li><a href="./about.html" >About Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./login.html" >Login</a></li>
+                </ul>
+                <ul class="submenu-list">
+                    <li class="menu-list_on_mobile">
+                        <div id="mobile-menu" onclick="openMenu()" class="menu-list_on_mobile_three"><i class="menu-icon ti-menu"></i></div>
+                    </li>
+                    <li class="menu-list_header-search">
+                        <i class="ti-search"></i>
+                        <div class="menu-list-search">
+                            <input type="text" placeholder="Search"></input>
+                        </div>
+                    </li>
+                    <li class="menu-list_header-user">
+                        <i class="ti-user"></i>
+                        
+                    </li>
+                    <li class="menu-list_header-cart" id="menu-list-btn">
+                        <i class="ti-shopping-cart"></i>
+                        <div class="menu-list-empty ti-shopping-cart-empty" id="menu-list-shopping">
+                            <header class="menu-list-cart-header">
+                                <h1 class="menu-list-cart-header-text">Cart</h1>
+                            </header>
+                            <section class="menu-list-cart-product">
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book14.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">VEGETARIAN CHILD</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book15.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">Waited long enough</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                                <div class="menu-list-cart-product-item">
+                                    <img src="./asserts/image/books/book16.jpg" alt="">
+                                    <div class="cart-product-item">
+                                        <h5 class="cart-product-item-title">You're not hoarder</h5>
+                                        <p class="cart-product-item-price">25$</p>
+                                        <input type="number" class="cart-product-item-count" min="1" placeholder="1"></input>
+                                    </div>
+                                    <a href=""><i class="ti-close"></i></a>
+                                </div>
+                            </section>
+                            <footer class="menu-list-cart-footer">
+                                <div class="menu-list-cart-footer-btn">
+                                    <a href="/cart.html" class="menu-list-cart-footer-btn-checkout" >Check cart</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+
+            <div id="book-menu-content" class="js-books" >
+                <div id="books" class="content-section">
+                    <p class="content-heading">Our</p>
+                    <h1 class="content-heading-large">BOOKSTORE</h1>
+                    
+                    <div class="books-grid grid">
+                        <div class="grid_row">
+
+                            <div class="grid_column-2">
+                                <nav class="category">
+                                    <h2 class="category-heading">Filter by</h2>
+
+                                    <ul class="category-list">
+                                        <li class="category-item">
+                                            <a href="#" class="category-item-link">Collection</a>
+                                            <ul class="category-item-sub">
+                                                <li><a href="">The best of the year</a></li>
+                                                <li><a href="">Design & Art</a></li>
+                                                <li><a href="">This Month's Recommended</a></li>
+                                                <li><a href="">Travel Guides</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="category-item">
+                                            <a href="#" class="category-item-link">Price</a>
+                                            <ul class="category-item-sub">
+                                                <li><a href="">$0 - $50</a></li>
+                                                <li><a href="">$50 - $100</a></li>
+                                                <li><a href="">$100 - $150</a></li>
+                                                <li><a href="">$150 - $200</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            <div class="grid_column-10">
+                                <div class="grid_row">
+                                    <div class="grid_column-2-4">
+                                       
+                                        <div class="book-item">
+                                            <p class="book-item-mark">Bestseller</p>
+                                            <div onclick="showBook('book1.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book1.jpg);"></div>
+                                            <p class="book-item-text">The Missing</p>
+                                            <p class="book-item-text">28$</p>
+                                            <a class="book-item-btn" href="./detail/product1.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book2.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book2.jpg);"></div>
+                                            <p class="book-item-text">Hiking in the APLS</p>
+                                            <p class="book-item-text">50$</p>
+                                            <a class="book-item-btn" href="./detail/product2.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book3.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book3.jpg);"></div>
+                                            <p class="book-item-text">Spoken Word</p>
+                                            <p class="book-item-text">40$</p>
+                                            <a class="book-item-btn" href="./detail/product3.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book4.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book4.jpg);"></div>
+                                            <p class="book-item-text">KHALO</p>
+                                            <p class="book-item-text">32$</p>
+                                            <a class="book-item-btn" href="./detail/product4.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book5.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book5.jpg);"></div>
+                                            <p class="book-item-text">DESIGN</p>
+                                            <p class="book-item-text">66$</p>
+                                            <a class="book-item-btn" href="./detail/product5.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <p class="book-item-mark">Sale</p>
+                                            <div onclick="showBook('book16.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book16.jpg);"></div>
+                                            <p class="book-item-text">You're not hoarder</p>
+                                            <p class="book-item-text"><del>200$</del> --> 100$</p>
+                                            <a class="book-item-btn" href="./detail/product6.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book7.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book7.jpg);"></div>
+                                            <p class="book-item-text">PICASSO</p>
+                                            <p class="book-item-text">147$</p>
+                                            <a class="book-item-btn" href="./detail/product7.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book8.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book8.jpg);"></div>
+                                            <p class="book-item-text">Waited long enough</p>
+                                            <p class="book-item-text">64$</p>
+                                            <a class="book-item-btn" href="./detail/product8.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book9.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book9.jpg);"></div>
+                                            <p class="book-item-text">99</p>
+                                            <p class="book-item-text">77$</p>
+                                            <a class="book-item-btn" href="./detail/product9.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book10.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book10.jpg);"></div>
+                                            <p class="book-item-text">Looking for NINI</p>
+                                            <p class="book-item-text">20$</p>
+                                            <a class="book-item-btn" href="./detail/product10.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book11.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book11.jpg);"></div>
+                                            <p class="book-item-text">Healing Herbs</p>
+                                            <p class="book-item-text">36$</p>
+                                            <a class="book-item-btn" href="./detail/product11.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book12.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book12.jpg);"></div>
+                                            <p class="book-item-text">ORIGAMI</p>
+                                            <p class="book-item-text">88$</p>
+                                            <a class="book-item-btn" href="./detail/product12.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book13.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book13.jpg);"></div>
+                                            <p class="book-item-text">The SAHARA</p>
+                                            <p class="book-item-text">16$</p>
+                                            <a class="book-item-btn" href="./detail/product13.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book14.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book14.jpg);"></div>
+                                            <p class="book-item-text">Vegetarian Child</p>
+                                            <p class="book-item-text">20$</p>
+                                            <a class="book-item-btn" href="./detail/product14.html">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book15.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book15.jpg);"></div>
+                                            <p class="book-item-text">Waited long enough</p>
+                                            <p class="book-item-text">100$</p>
+                                            <a class="book-item-btn" href="">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                       
+                                        <div class="book-item">
+                                           
+                                            <div onclick="showBook('book1.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book16.jpg);"></div>
+                                            <p class="book-item-text">You're not hoarder</p>
+                                            <p class="book-item-text">28$</p>
+                                            <a class="book-item-btn" href="">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book2.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book17.jpg);"></div>
+                                            <p class="book-item-text">Cocktails</p>
+                                            <p class="book-item-text">50$</p>
+                                            <a class="book-item-btn" href="">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book3.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book18.jpg);"></div>
+                                            <p class="book-item-text">Healing herbs</p>
+                                            <p class="book-item-text">40$</p>
+                                            <a class="book-item-btn" href="">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book4.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book2.jpg);"></div>
+                                            <p class="book-item-text">The hiking APLS</p>
+                                            <p class="book-item-text">32$</p>
+                                            <a class="book-item-btn" href="">Quick View</a>
+                                        </div>
+                                    </div>
+                                    <div class="grid_column-2-4">
+                                        <div class="book-item">
+                                            <div onclick="showBook('book5.jpg')" class="book-item-img js-books-type" style="background-image:url(./asserts/image/books/book10.jpg);"></div>
+                                            <p class="book-item-text">Looking for NINI</p>
+                                            <p class="book-item-text">66$</p>
+                                            <a class="book-item-btn" href="">Quick View</a>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                </div>
+
+                                <div class="book-btn-mobile">
+                                    <a href="#" class="mobile-btn">More</a>
+                                </div>
+
+                                <div class="book-pagination">
+                                    <a href="" class="book-pagination-number">&laquo;</a>
+                                    <a href="" class="book-pagination-number active">1</a>
+                                    <a href="" class="book-pagination-number">2</a>
+                                    <a href="" class="book-pagination-number">3</a>
+                                    <a href="" class="book-pagination-number">4</a>
+                                    <a href="" class="book-pagination-number">5</a>
+                                    <a href="" class="book-pagination-number">6</a>
+                                    <a href="" class="book-pagination-number">&raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="footer" ">
+                <div class="row footer-container">
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">BOOKSTORE. Publishers</h4>
+                        <p class="footer-subheading">35 Nguyen Dinh Hien</p>
+                        <p class="footer-subheading">Viet Nam</p>
+                        <p class="footer-subheading">0356593936</p>
+                        <p class="footer-subheading"><a href="mailto:mail@mail.com">info@my-domain.com</a></p>
+
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Shop</h4>
+                        <p class="footer-subheading">FAQ</p>
+                        <p class="footer-subheading">Shipping & Returns</p>
+                        <p class="footer-subheading">Store Policy</p>
+                        <p class="footer-subheading">Payment Methods</p>
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Socials</h4>
+                        <p class="footer-subheading"><a href="">Facebook</a></p>
+                        <p class="footer-subheading"><a href="">Twitter</a></p>
+                        <p class="footer-subheading"><a href="">Instagram</a></p>
+                        <p class="footer-subheading"><a href="">Pinterest</a></p>
+                    </div>
+                    <div class="col col-four footer-col">
+                        <h4 class="footer-heading">Be the First to Know</h4>
+                        <form class="footer-form" action="">
+                            <label for="email">Sign up for our website</label>
+                            <br>
+                            <input type="email" name="email" required id="footer-input" placeholder="Enter your email here*">
+                            <br>
+                            <input class="footer-form-btn" type="submit" value="Subcrise">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- Information of product -->
+        <div class="modal-infor js-modal-infor js-modal-infor_body" id="infor" >
+            
+        </div>
+                        
+                        
+
+
+        <script>
+            const booksType = document.querySelectorAll('.js-books-type');
+            const bookBody = document.querySelector('.js-modal-infor');
+            const bookContainer = document.querySelector('.js-modal-infor_body');
+           
+            
+            
+           
+            function infor ({type = '' }){
+                const main = document.getElementById('infor');
+                
+                if (main){
+                    const infor = document.createElement('div');
+                    main.onclick = function(e){
+                        bookContainer.addEventListener('click', closeBook);
+                        main.removeChild(infor); 
+                    }
+                    infor.classList.add('infor');
+                    infor.innerHTML = `
+
+                    <div class="modal-infor_body">
+                        <div class="row modal-infor-row">
+                            <div class="col col-half">
+                                <div class="modal-infor_body-img" style="background-image:url(./asserts/image/books/${type})"></div>
+                            </div>
+                            <div class="col col-half">
+                                <h2 class="modal-infor-name">Name book</h2>
+                                <p class="modal-infor-code">ID: 009</p>
+                                <p class="modal-infor-code">Quantity</p>
+                                <input class="modal-infor-quantity" type="number" name="" id="" placeholder="0" >
+                                <p class="modal-infor-price">Price: $100</p>
+                                <p class="modal-infor-description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.
+                                </p>
+                                <div class="modal-infor_controls">
+                                    <button class="modal-infor_btn">ADD TO CART</button>
+                                </div>
+                                <div class="modal-infor_controls">
+                                    <button class="modal-infor_btn">BACK</button>
+                                </div>
+                            </div>
+                        </div>
+                     </div>`;
+                     main.appendChild(infor);
+                }
+
+                
+                
+            }
+
+            
+            function showBook(e) {
+                bookBody.classList.add('show');
+                infor ({
+                    type: e
+                });
+
+            }
+
+            function closeBook() {
+                bookBody.classList.remove('show');
+                
+            }
+        </script>
+
+<script>
+    const buyBans = document.querySelectorAll('.js-book');
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-close')
+        const modalContainer = document.querySelector('.js-container')
+
+        function showModal(){
+            modal.classList.add('open');
+        }
+
+        function closeModal(){
+            modal.classList.remove('open');
+        }
+
+        for (const buyBtn of buyBans){
+            buyBtn.addEventListener('click',showModal)
+        }
+
+        modalClose.addEventListener('click',closeModal)
+
+        modal.addEventListener('click',closeModal)
+
+        modalContainer.addEventListener('click',function (event){
+            event.stopPropagation()
+        })
+
+
+        var header = document.getElementById("header");
+        
+        var header_height = header.clientHeight;
+
+        function openMenu(){
+            var isClose = header.clientHeight === header_height;
+
+            if (isClose){
+                header.style.height = "auto";
+            }else {
+                header.style.height = header_height + "px";
+            }
+
+        }
+
+        function closeMenu(){
+            header.style.height = header_height + "px";
+        }
+
+        const authform = document.querySelector('.js-modal2');
+      
+        const authformClose = document.querySelector('.js-btn-close');
+        const authformContainer = document.querySelector('.js-modal2-body');
+
+        function showAuthForm(){
+            authform.classList.add('open');
+        }
+
+        function closeAuthForm(){
+            authform.classList.remove('open');
+        }
+
+     
+        
+        authformClose.addEventListener('click',closeAuthForm)
+
+        
+        var menulistBtn = document.getElementById("menu-list");
+        var menuShopping = document.getElementById("menu-shopping");
+
+        menulistBtn.onclick = function(){
+            menuShopping.style.display = "block";
+        }
+   </script>
+     
+    </body>
+</html>
